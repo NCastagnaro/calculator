@@ -1,0 +1,103 @@
+.container{
+    display: grid;                            
+  grid-template-columns: repeat(4, 90px);   
+  grid-auto-rows: 50px;                     
+  grid-gap: 10px;                            
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  
+
+}
+
+#circle{
+    border-radius: 10%;
+    background-color: plum;
+}
+
+.input{
+    grid-column: 1/5;
+    font-size: 20px;
+    text-align: right;
+}
+.clear{
+    grid-column:1/3;
+    background-color: plum;
+}
+
+.zero{
+    grid-column: 1/3;
+    background-color: plum;
+}
+  
+.equals{
+    grid-column: 4/5;
+    grid-row: 5/7;
+    padding: 30px;
+}
+
+/*Needed to add special p tag to place the decimal point in the desired spot*/
+p{
+    bottom: 50px;
+    position: relative;
+}
+
+
+
+/*.input {
+    height: 40px;
+    font-size: 25px;
+  }
+  .container {
+    border-color: black;
+    font-size: 45px;
+    margin: auto;
+    min-height: 300px;
+    width: 10%;
+    column-gap: 5px;
+    row-gap: 5px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: black;
+
+  }
+  
+  .input {
+    grid-column: 1/5;
+  }
+  .clear{
+      grid-column:1/3;
+      grid-row: 2/4;
+     
+  }
+  .equals{
+      grid-column: 4/5;
+      grid-row:5/6;
+  }
+ 
+  .zero {
+    grid-column: 1/3;
+  } 
+ 
+  
+  #oval {
+    background-color: plum;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    display: inline-flex;
+
+
+  }
+  
+  #circle {
+    height: 65px;
+    width: 65px;
+    background-color: plum;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }*/
